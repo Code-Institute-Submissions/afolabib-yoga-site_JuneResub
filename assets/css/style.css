@@ -10,7 +10,7 @@
 .headeropen {
     min-height: 100vh;
     min-width: 100%;
-    background-image: url(/About\ Us\ and\ the\ team.png);
+    background-image: url(../images/background.jpg);
     background-size: auto;
     background-position: center;
     position: relative;
