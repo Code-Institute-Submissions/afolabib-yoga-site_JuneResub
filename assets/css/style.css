@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
 
+/* Home page */
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +21,7 @@
     text-decoration: none;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(185, 185, 185);
+    border-color: rgb(129, 129, 129);
     padding: 5px;
     color: #45a049;
 
@@ -103,7 +104,9 @@
 
     }
 }
-
+.iframe {
+  width: 420px; height: 250px ;
+}
 .tech {
     width: 80%;
     margin: auto;
@@ -118,7 +121,7 @@
 
 .row {
     margin: 5%;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
 
 }
@@ -131,7 +134,8 @@
     padding: 20px 11px;
     box-sizing: border-box;
     transition: 0.5s;
-    display: inline-block;
+    display: block;
+    
 }
 
 .colum h1 {
@@ -170,14 +174,14 @@ h3 {
 }
 
 
-  /* Create three columns of equal width */
+  /* Pricing page- Create three columns of equal width from w3school*/
   .columns {
     float: left;
     width: 33.3%;
     padding: 8px;
   }
   
-  /* Style the list */
+  /* Style the list from w3school*/
   .price {
     list-style-type: none;
     border: 1px solid #eee;
@@ -187,19 +191,19 @@ h3 {
     transition: 0.3s;
   }
   
-  /* Add shadows on hover */
+  /* Add shadows on hover w3 school*/
   .price:hover {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
   }
   
-  /* Pricing header */
+  /* Pricing header w3 school*/
   .price .header {
     background-color: #111;
     color: white;
     font-size: 25px;
   }
   
-  /* List items */
+  /* List items w3 school and css below too*/
   .price li {
     border-bottom: 1px solid #eee;
     padding: 20px;
@@ -359,4 +363,19 @@ h3 {
       width: 100%;
       display: block;
     }
+  }
+  @media screen and (max-width: 650px) {
+    .colum {
+      width: 100%;
+      display: block;
+    }
+  }
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(133, 133, 133);
+    color: white;
+    text-align: center;
   }
