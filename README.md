@@ -41,17 +41,10 @@ In this section, you should go over the different parts of your project, and des
 
 ![Packages](/assets/images/Packages.png)
 
-- __About the team__
-
-  - This page is about the team. It states the mission and each team member. It also lists their email for contact.
-
-![Contact](/assets/images/About%20Us%20and%20the%20team.png)
-
-
 
 ### Features Left to Implement
 
-- A contact form would give the contact page more fuctionalilty and will be impletmeted in future. 
+- A contact form would give the contact page more fuctionalilty and will be impletmeted in future. A page about the team and those invloved.
 
 ## Testing 
 
